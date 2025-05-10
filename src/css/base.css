@@ -30,3 +30,210 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+/* STYLES FOR TIMER */
+.calendar-input {
+  width: 250px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background-color: #ffff;
+  margin-right: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 24px;
+}
+
+.calendar-input:hover {
+  border: 1px solid #000;
+}
+
+.calendar-input:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+
+}
+
+.calendar-input:disabled {
+  background-color: #fafafa;
+  border: 1px solid #808080;
+}
+
+.calendar-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.calendar-btn:hover {
+  background-color: #6c8cff;
+}
+
+.calendar-btn:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+  cursor: auto;
+  border: none;
+}
+
+.timer {
+  min-width: 346px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+
+}
+
+.field {
+  min-width: 55px;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+/* STYLES FOR SNACKBAR */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 30px;
+}
+
+.delay-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.delay-input:hover {
+  border: 1px solid #000;
+}
+
+.delay-input:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+.fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 360px;
+  align-self: center;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.legend {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.state-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.state-input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.snackbar-btn {
+  align-self: center;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.snackbar-btn:hover {
+  background-color: #6c8cff;
+}
